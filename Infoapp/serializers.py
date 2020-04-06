@@ -24,4 +24,4 @@ class InfoSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Info
-        fields = ('id', 'name', 'age', 'task_name', 'created', 'completed', 'image')
+        fields = ('id', 'name', 'age', 'sex', 'bio', 'task_name', 'created', 'completed', 'image')
